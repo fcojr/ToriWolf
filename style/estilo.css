@@ -1,0 +1,140 @@
+html, body { 
+	overflow-x: hidden;
+	font-family: Raleway, sans-serif;
+	background-image: url('../img/sakura.png'); 
+}
+header img{
+	height: 120px;
+}
+header{
+	height: 120px;
+	background: linear-gradient(-45deg, #ffc8cd 70%, #a8a8a8 30%);
+	margin-top: 50px;
+}
+@media(max-width: 767px){
+	header{
+		background: linear-gradient(-45deg, #ffc8cd 50%, #a8a8a8 50%);
+	}
+}
+.menu li{
+/*	display: inline;
+	line-height: 120px;
+	padding: 10px;*/
+	font-size: 25px;
+}
+.menu li a{
+	text-decoration: none;
+	color: #000;
+}
+/*--*/
+.banner-centro{
+	text-align: center;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+p{
+	font-size: 20px;
+	padding: 10px;
+}
+.botao{
+	background-color: #fb9143;
+	border: none;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.botao:hover{
+	background-color: #ffc8cd;
+	color: #fff;
+}
+/*--*/
+.produtos{
+	text-align: center;
+	background-color: #fff;
+}
+.produtos img{
+	width: 300px;
+	height: 300px;
+}
+.produtos h2{
+	padding: 40px;
+}
+.featurette-divider{
+	margin: 80px;
+}
+.produtos-maior .row img{
+	width: 500px;
+	height: 450px;
+}
+.produtos-maior{
+	padding: 10px;
+}
+.produtos-maior p{
+	text-align: center;
+}
+.sobre img{
+	height: 300px;
+	width: 200px; 
+}
+.sobre p{
+		width: 70%;
+		text-align: left;
+		margin-top: 25px;
+}
+.footer{
+	background-color: #a8a8a8;
+	font-size: 18px;
+	text-align: center;
+	padding: 50px;
+	padding-bottom: 10px;
+}
+#ultimo{
+	margin-bottom: 0;
+}
+.footer a{
+	text-decoration: none;
+	color: #fff;
+}
+.footer p{
+	padding-bottom: 10px;
+	padding-top: 35px;
+	font-size: 15px;
+	text-decoration: none;
+	color: #fff;
+}
+@media(max-width: 766px){
+	.banner-centro{
+		padding-top: 0;
+	}
+	#menu li{
+		font-size: 15px;
+	}
+}
+.navbar-default{
+	border: 0;
+	margin-bottom: 0;
+}
+.navbar-toggle{
+	background-color: #fff;
+	border-color: #a8a8a8;
+}
+@media(max-width: 1023px){
+	.sobre p{
+		text-align: center;
+		width: 100%;
+		margin-top: 25px;
+
+	}
+}
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
